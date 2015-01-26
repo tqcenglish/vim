@@ -58,7 +58,7 @@ let Tlist_Use_Right_Window = 1         "在右侧窗口中显示taglist窗口
 
 
 "powerline
-set guifont=PowerlineSymbols\ for\ Powerline
+"set guifont=PowerlineSymbols\ for\ Powerline
 set nocompatible
 set t_Co=256
 let g:Powerline_symbols = 'fancy'
