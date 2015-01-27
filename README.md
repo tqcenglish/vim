@@ -1,8 +1,9 @@
 #VIM插件管理
+##使用
 
-* git clone https://github.com/tqcenglish/Vim ~/.vim
-* git 
-* cp ~/.vim/vimrc ~/.vimrc 
+	 git clone https://github.com/tqcenglish/Vim ~/.vim
+	 cp ~/.vim/vimrc ~/.vimrc
+	 git submodule foreach git pull origin master //更新子模块
 
 ##相关插件
 ##emmet-vim
