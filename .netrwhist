@@ -1,6 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Applications/IntelliJ IDEA 13 CE.app'
-let g:netrw_dirhist_2='/Users/tqcenglish/SrcCode/github/Android/FlatUI/library'
-let g:netrw_dirhist_3='/Users/tqcenglish/SrcCode/Github/Android/MaterialList/app/build'
-let g:netrw_dirhist_4='/Users/tqcenglish/SrcCode/Github/Android/android-autoupdater'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/tqcenglish/Desktop'
+let g:netrw_dirhist_2='/home/tqcenglish/SrcCode'
