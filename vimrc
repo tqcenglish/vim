@@ -1,6 +1,6 @@
 "base set
 
-"set guifont=Monaco:h15 "设置字体
+set guifont=Monaco:h15 "设置字体
 colorscheme desert "设置配色方案
 set encoding=utf-8 "设置编码
 set is "搜索时在未完全输入完毕要检索的文本时就开始检索
@@ -62,3 +62,9 @@ let Tlist_Use_Right_Window = 1         "在右侧窗口中显示taglist窗口
 set nocompatible
 set t_Co=256
 let g:Powerline_symbols = 'fancy'
+
+"ruby
+autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
+autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
+autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
+
