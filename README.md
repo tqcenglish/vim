@@ -3,7 +3,14 @@
 
 	 git clone https://github.com/tqcenglish/Vim ~/.vim
 	 cp ~/.vim/vimrc ~/.vimrc
+	 cd ~/.vim
+	 git submodule init
+	 git submodule update //初始化拉取
 	 git submodule foreach git pull origin master //更新子模块
+## 依赖
+ctags
+
+	sudo dnf install ctags
 
 ##相关插件
 ##emmet-vim
