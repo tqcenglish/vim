@@ -37,6 +37,9 @@
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
 	url = git@github.com:elzr/vim-json.git
+[submodule "bundle/vim-css3-syntax"]
+	path = bundle/vim-css3-syntax
+	url = https://github.com/hail2u/vim-css3-syntax.git
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = git@github.com:vim-ruby/vim-ruby.git
