@@ -28,23 +28,17 @@ aptitude install zsh exuberant-ctags
 ```
 
 ## 在線插件
-- emmet-vim
-- goyo.vim
-- html5.vim
-- nerdtree
-- tagbar
-- vim-javascript
-- vim-markdown
-- vim-multiple-cursors
-- vim-pathogen
-- vim-powerline
-- vim-go
+- [emmet-vim](https://github.com/mattn/emmet-vim)
+- [goyo.vim](https://github.com/junegunn/goyo.vim)
+- [html5.vim](https://github.com/othree/html5.vim)
+- [nerdtree](https://github.com/scrooloose/nerdtree)
+- [tagbar](https://github.com/majutsushi/tagbar)
+- [vim-javascript](https://github.com/pangloss/vim-javascript)
+- [vim-markdown](https://github.com/plasticboy/vim-markdown)
+- [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
+- [vim-pathogen](https://github.com/tpope/vim-pathogen)
+- [vim-powerline](https://github.com/powerline/powerline)
+- [vim-go](https://github.com/fatih/vim-go)
 
 ## 离线插件
-* ael
-* asterisk
-* asteriskvm
-* taglist
-* winfileexplorer
-* winmanager
-* wintagexplorer
+* [ael](http://www.vim.org/scripts/script.php?script_id=1900)
