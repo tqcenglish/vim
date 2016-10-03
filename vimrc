@@ -30,7 +30,6 @@ set mouse=a "设置鼠标模式
 
 
 "pathogen
-execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
