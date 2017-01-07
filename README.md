@@ -2,7 +2,7 @@
 此仓库将常用插件或插件作为子模块关联在一起,实现一步安装。
 ## 安装 
 
-``` bash 安装
+``` bash
  aptitude install vim // vi 不能識別所有配置
  git clone https://github.com/tqcenglish/Vim ~/.vim
  cp ~/.vim/vimrc ~/.vimrc
