@@ -1,2 +1,2 @@
-bundle/*
+# bundle/*  不要屏蔽此目录会导致子模块不能更新      
 .netrwhist
