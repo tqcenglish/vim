@@ -1,6 +1,4 @@
-"base set
-
-set guifont=Monaco:h15 "设置字体
+set guifont=Monaco:h14 "设置字体
 colorscheme desert "设置配色方案
 set encoding=utf-8 "设置编码
 set is "搜索时在未完全输入完毕要检索的文本时就开始检索
@@ -30,6 +28,7 @@ set mouse=a "设置鼠标模式
 
 
 "pathogen
+execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
@@ -38,7 +37,7 @@ let g:pandoc_auto_format = 1
 
 "NERDTree
 "open a NERDTree automatically when vim starts up if no files were specified
-autocmd vimenter * if !argc() | NERDTree | endif
+"autocmd vimenter * if !argc() | NERDTree | endif
 "map a specific key or shortcut to open NERDTree
 map <C-n> :NERDTreeToggle<CR>
 "close vim if the only window left open is a NERDTree
@@ -67,3 +66,7 @@ autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 
+"设置tab宽度
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
